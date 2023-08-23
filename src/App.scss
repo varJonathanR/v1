@@ -128,46 +128,47 @@ th, td{
     gap: 2rem;
 }
 
-label, input, textarea{
-    color: white;
-    margin: .2rem;
-    padding: .2rem;
-}
+form{
+    label, input, textarea{
+        color: white;
+        margin: .2rem;
+        padding: .2rem;
+    }
+    input, textarea{
+        background: var(--quaternary-color);
+        padding: 1rem;
+    }
 
-input, textarea{
-    background: var(--quaternary-color);
-    padding: .5rem;
-}
+    .top-form{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        width: 100%;
+        .form-input{
+            width: 510px;
+            min-width: 250px;
+        }
+    }
 
-.top-form{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    width: 100%;
-}
+    .form-input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 1rem 0;
+    }
 
-.top-form .form-input{
-    width: 500px;
-    min-width: 250px;
-}
-
-.form-input{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 1rem;
-}
-
-.form-input input, textarea{
-    padding: 1rem;
-}
-
-.error{
-    color: var(--tertiary-color);
-    display: flex;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
-    gap: .5rem;
-    margin: .5rem 0;
-    padding: .5rem 0;
+    .error-container{
+        height: 1rem;
+        .error{
+            color: var(--tertiary-color);
+            display: flex;
+            align-items: center;
+            font-family: 'Roboto', sans-serif;
+            gap: .5rem;
+            margin: .5rem 0;
+            padding: .5rem 0;
+        }
+    }
 }

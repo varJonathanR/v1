@@ -7,7 +7,8 @@ export default function ContactForm() {
     <Formik
         initialValues={{
             name: "",
-            email: ""
+            email: "",
+            message: ""
         }}
         validate={(values) => {
             let error = {};
@@ -30,9 +31,11 @@ export default function ContactForm() {
         }}  
         onSubmit={(values, {resetForm}) => {
             resetForm();
+            console.log(values);
+            console.log("Form send");
         }}
     >
-        {({ errors }) => (
+        {({ errors, values, handleChange }) => (
             <Form name='contact' method='post' data-netlify="true">
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="top-form">
@@ -45,9 +48,11 @@ export default function ContactForm() {
                             placeholder='Your name...' 
                             required 
                         />
-                        <ErrorMessage name='name' component={() => (
-                            <div className='error'><BsFillInfoCircleFill />{errors.name}</div>
-                        )} />
+                        <div className="error-container">
+                            <ErrorMessage name='name' component={() => (
+                                <div className='error'><BsFillInfoCircleFill />{errors.name}</div>
+                            )} />
+                        </div>
                     </div>
                     <div className='form-input'>
                         <label htmlFor="email">Email</label>
@@ -58,14 +63,25 @@ export default function ContactForm() {
                             placeholder='email@email.com' 
                             required 
                         />
-                        <ErrorMessage name='email' component={() => (
-                            <div className='error'><BsFillInfoCircleFill />{errors.email}</div>
-                        )} />
+                        <div className="error-container">
+                            <ErrorMessage name='email' component={() => (
+                                <div className='error'><BsFillInfoCircleFill />{errors.email}</div>
+                            )} />
+                        </div>
                     </div>
                 </div>
                 <div className='form-input'>
                     <label htmlFor="message">Writte your message!</label>
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder='SAY HI!'></textarea>
+                    <textarea 
+                        name="message" 
+                        id="message" 
+                        cols="30" 
+                        rows="10" 
+                        placeholder='SAY HI!' 
+                        value={values.message} 
+                        onChange={handleChange}
+                        required
+                    ></textarea>
                 </div>
                 <p className='centered-text'>
                     <button type="submit" className='buttonA'>Send</button>

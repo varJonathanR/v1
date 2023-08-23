@@ -21,6 +21,10 @@ input, button, textarea, select{
     border-radius: 6px;
 }
 
+textarea{
+    resize: none;
+}
+
 button, select{
     background-color: transparent;
     cursor: pointer;
