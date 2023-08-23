@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+:root{
+    --primary-color: #0A192F;
+    --secondary-color: #8892b0;
+    --tertiary-color: #CCD6F6;
+    --quaternary-color: #112240;
+    --quinary-color: #08FDD8;
+}
+
+html{
+    overflow-y: scroll;
+}
+
+html, body{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+    width: calc(100vw - 10px)
+}
+
+.centered-text{
+    text-align: center;
+    width: 100%;
+}
+
+p{
+    width: 80ch;
+    color: var(--secondary-color);
+    margin: 1rem 0;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    color: var(--quinary-color);
+    text-decoration: none;
+}
+
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-color);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--tertiary-color);
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
