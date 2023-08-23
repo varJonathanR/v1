@@ -37,8 +37,7 @@ export default function ContactForm() {
     >
         {({ errors, values, handleChange }) => (
             <form 
-                name='contact' 
-                autoComplete='off' 
+                name='contact'  
                 method='post'
                 data-netlify="true"
             >
