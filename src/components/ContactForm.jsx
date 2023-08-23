@@ -1,5 +1,5 @@
 import React from 'react'
-import { Formik, Form, Field, ErrorMessage } from 'formik'
+import { Formik, Field, ErrorMessage } from 'formik'
 import { BsFillInfoCircleFill } from "react-icons/bs";
 
 export default function ContactForm() {
@@ -36,7 +36,12 @@ export default function ContactForm() {
         }}
     >
         {({ errors, values, handleChange }) => (
-            <Form name='contact' method='post' data-netlify="true">
+            <form 
+                name='contact' 
+                autoComplete='off' 
+                method='post'
+                data-netlify="true"
+            >
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="top-form">
                     <div className='form-input'>
@@ -86,7 +91,7 @@ export default function ContactForm() {
                 <p className='centered-text'>
                     <button type="submit" className='buttonA'>Send</button>
                 </p>
-            </Form>
+            </form>
         )}
     </Formik>
   )

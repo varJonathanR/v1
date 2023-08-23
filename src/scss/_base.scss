@@ -23,13 +23,16 @@ body{
     width: calc(100vw - 10px)
 }
 
+.bio{
+    max-width: 80ch;
+}
+
 .centered-text{
     text-align: center;
     width: 100%;
 }
 
 p{
-    width: 80ch;
     color: var(--secondary-color);
     margin: 1rem 0;
 }
