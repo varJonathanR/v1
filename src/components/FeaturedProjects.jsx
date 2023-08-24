@@ -11,8 +11,8 @@ export default function FeaturedProjects({ liveLink, githubLink }) {
             <h4>Edie Homepage</h4>
             <p>ASDSHGFHDSGFJAHDGFH</p>
             <td className='tdFlex'>
-                <a href={liveLink} aria-label='Demo' className='hover-link' target="_blank" rel="noopener noreferrer"><BsBoxArrowUpRight size={20} /></a>
-                <a href={githubLink} aria-label='Repository' className='hover-link' target="_blank" rel="noopener noreferrer"><BsGithub size={20} /></a>
+                <a href={liveLink} aria-label='Demo' className='hover-link' target="_blank" rel="noopener noreferrer"><BsBoxArrowUpRight className='fixed-icon' /></a>
+                <a href={githubLink} aria-label='Repository' className='hover-link' target="_blank" rel="noopener noreferrer"><BsGithub className='fixed-icon' /></a>
             </td>
         </div>
     </MainProject>

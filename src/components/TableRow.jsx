@@ -8,8 +8,8 @@ export default function TableRow({ year, title, technologies, liveLink, githubLi
         <td className='project-title'>{title}</td>
         <td>{technologies}</td>
         <td className='tdFlex'>
-            <a href={liveLink} aria-label='Demo' className='hover-link' target="_blank" rel="noopener noreferrer"><BsBoxArrowUpRight size={20} /></a>
-            <a href={githubLink} aria-label='Repository' className='hover-link' target="_blank" rel="noopener noreferrer"><BsGithub size={20} /></a>
+            <a href={liveLink} aria-label='Demo' className='hover-link' target="_blank" rel="noopener noreferrer"><BsBoxArrowUpRight className='fixed-icon' /></a>
+            <a href={githubLink} aria-label='Repository' className='hover-link' target="_blank" rel="noopener noreferrer"><BsGithub className='fixed-icon' /></a>
         </td>
     </tr>
   )

@@ -111,6 +111,13 @@ th, td{
     &:hover{
         color: var(--quinary-color);
     }
+
+    .fixed-icon{
+        min-height: 20px;
+        min-width: 20px;
+        height: 25px;
+        width: 25px;
+    }
 }
 
 .tdFlex{
@@ -140,16 +147,10 @@ form{
     }
 
     .top-form{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         gap: 1rem;
         width: 100%;
-        .form-input{
-            width: 510px;
-            min-width: 250px;
-        }
     }
 
     .form-input{
@@ -169,6 +170,15 @@ form{
             gap: .5rem;
             margin: .5rem 0;
             padding: .5rem 0;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    form{
+        .top-form{
+            display: grid;
+            grid-template-columns: 1fr;
         }
     }
 }
