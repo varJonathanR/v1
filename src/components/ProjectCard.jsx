@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsBoxArrowUpRight, BsGithub } from "react-icons/bs";
-import { Card } from './StyledComponents';
+import { styled } from "styled-components";
 
 export default function ProjectCard({ title, description, technologies, image, imageAlt, liveLink, githubLink }) {
   return (
@@ -18,3 +18,34 @@ export default function ProjectCard({ title, description, technologies, image, i
     </Card>
   )
 }
+
+const Card = styled.div`
+    max-width: 400px;
+    min-width: 250px;
+    padding: 1rem;
+    background-color: var(--quaternary-color);
+    border-radius: 5px;
+
+    h3{
+        font-size: 1.2rem;
+        margin: 8px 0;
+    }
+
+    p{
+        margin: 5px 0;
+        width: 100%;
+    }
+
+    img{
+        border-radius: 5px;
+    }
+
+    .specialInfo{
+        margin-top: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+`

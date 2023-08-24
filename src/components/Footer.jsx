@@ -1,6 +1,28 @@
 import React from 'react'
-import { PageFooter } from './StyledComponents'
 import { BsGithub, BsLinkedin, BsTwitter } from "react-icons/bs";
+import { styled } from "styled-components";
+
+const PageFooter = styled.footer`
+    color: var(--secondary-color);
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+
+    p{
+        width: 100%;
+        margin: .6rem;
+    }
+
+    .linksContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+`
 
 export default function Footer() {
   return (

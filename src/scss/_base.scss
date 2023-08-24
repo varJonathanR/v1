@@ -23,6 +23,12 @@ body{
     width: calc(100vw - 10px)
 }
 
+.container{
+    margin: 85px auto 0 auto;
+    width: 80%;
+    padding: 1rem;
+}
+
 .bio{
     max-width: 80ch;
 }
@@ -61,4 +67,10 @@ a{
 
 ::-webkit-scrollbar-track {
     background-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+    .container{
+        width: 95%;
+    }
 }

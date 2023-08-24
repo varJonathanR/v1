@@ -138,8 +138,9 @@ th, td{
 form{
     label, input, textarea{
         color: white;
-        margin: .2rem;
+        margin: .3rem;
         padding: .2rem;
+        width: 100%;
     }
     input, textarea{
         background: var(--quaternary-color);

@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Container } from "../components/StyledComponents";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { motion } from "framer-motion";
 
@@ -23,7 +22,7 @@ export default function Home() {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.75, ease: "easeOut" }}
     >
-      <Container>
+      <div className="container">
         <h1>Jonathan Rodriguez </h1>
         <h2>
           {typeWriter}
@@ -53,7 +52,7 @@ export default function Home() {
           </a>
           !
         </p>
-      </Container>
+      </div>
     </motion.div>
   );
 }

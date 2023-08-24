@@ -1,6 +1,5 @@
 import React from 'react'
-import { Container } from '../components/StyledComponents'
-import FeaturedProjects from '../components/FeaturedProjects'
+/* import FeaturedProjects from '../components/FeaturedProjects' */
 import BBProjects from '../components/BBProjects'
 import Skills from '../components/Skills'
 import { motion } from 'framer-motion'
@@ -14,11 +13,11 @@ export default function Projects() {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.75, ease: "easeOut" }}
     >
-      <Container>
+      <div className='container'>
         <h1>Projects</h1>
-        <h3>Featured Projects</h3>
+        {/* <h3>Featured Projects</h3>
         <FeaturedProjects />
-        <hr />
+        <hr /> */}
         <h3 className='centered-text'>Building Block Projects</h3>
         <p className="centered-text">
           <Link to="/archive" className='buttonA'>
@@ -28,7 +27,7 @@ export default function Projects() {
         <BBProjects />
         <hr />
         <Skills />
-      </Container>
+      </div>
     </motion.div>
   )
 }

@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
-import { Nav } from './StyledComponents'
+import { Nav, Burguer, LinkContainer } from './StyledComponents';
 
-function Navbar() {
+export default function Navbar() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const handleScroll = () => {
     const currentScrollPos = window.scrollY;
@@ -27,7 +28,15 @@ function Navbar() {
         <Link to="/">
           <p className='logo'>vJR</p>
         </Link>
-        <div className='linksCont'>
+        
+        <Burguer onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+          <div className={"icon nav-icon " + (isMobileMenuOpen ? "open" : "")}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </Burguer>
+        <LinkContainer open={isMobileMenuOpen}>
             <NavLink 
                 className={({isActive}) => (isActive ? "active" : null)} 
                 to="/"
@@ -40,9 +49,7 @@ function Navbar() {
                 className={({isActive}) => (isActive ? "active" : null)} 
                 to="/contact"
             >Contact</NavLink>
-        </div>
+        </LinkContainer>
     </Nav>
   )
 }
-
-export default Navbar
