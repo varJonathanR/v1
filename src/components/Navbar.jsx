@@ -25,7 +25,7 @@ function Navbar() {
   return (
     <Nav className={visible ? "" : "hide"}>
         <Link to="/">
-          <h3>vJR</h3>
+          <p className='logo'>vJR</p>
         </Link>
         <div className='linksCont'>
             <NavLink 

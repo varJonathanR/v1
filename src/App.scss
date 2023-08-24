@@ -10,7 +10,7 @@ h2{
     margin-bottom: 2rem;
 }
 
-h3{
+h3, .logo{
     color: var(--tertiary-color);
     font-size: 1.8rem;
     margin: 1rem 0;
@@ -175,6 +175,22 @@ form{
 }
 
 @media screen and (max-width: 767px) {
+    h1, .logo{
+        font-size: 1.8rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+    
+    h3{
+        font-size: 1.2rem;
+    }
+    
+    h4{
+        font-size: 1rem;
+    }
+
     form{
         .top-form{
             display: grid;

@@ -4,6 +4,7 @@ export const Container = styled.div`
     margin: 85px auto 0 auto;
     width: 80%;
     padding: 1rem;
+
     @media screen and (max-width: 767px) {
         width: 95%;
     }
@@ -45,6 +46,11 @@ export const Nav = styled.nav`
 
     .active{
         color: var(--quinary-color);
+    }
+
+    @media screen and (max-width: 767px) {
+        width: 95%;
+        padding: 1rem 1rem;
     }
 `
 
