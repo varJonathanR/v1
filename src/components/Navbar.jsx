@@ -26,7 +26,7 @@ export default function Navbar() {
   return (
     <Nav className={visible ? "" : "hide"}>
         <Link to="/">
-          <b className='logo'>vJR</b>
+          <p className='logo'>vJR</p>
         </Link>
         
         <Burguer onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
