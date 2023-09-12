@@ -1,5 +1,6 @@
 import React from 'react'
-import { BsGithub, BsLinkedin, BsTwitter } from "react-icons/bs";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { FaCodepen } from "react-icons/fa6";
 import { styled } from "styled-components";
 
 const PageFooter = styled.footer`
@@ -29,9 +30,15 @@ export default function Footer() {
     <PageFooter>
         <p>Designed and Built by varJonathanR</p>
         <div className="linksContainer">
-            <a href="https://github.com/varJonathanR" aria-label='GitHub' target="_blank" rel="noopener noreferrer" className='hover-link'><BsGithub className='fixed-icon' /></a>
-            <a href="https://www.linkedin.com/in/jonathanrodriguez04" aria-label='LinkedIn' target="_blank" rel="noopener noreferrer" className='hover-link'><BsLinkedin className='fixed-icon' /></a>
-            <a href="https://twitter.com/varJonathanR" aria-label='Twitter' target="_blank" rel="noopener noreferrer" className='hover-link'><BsTwitter className='fixed-icon' /></a>
+            <a href="https://github.com/varJonathanR" aria-label='GitHub' target="_blank" rel="noopener noreferrer" className='hover-link'>
+                <BsGithub className='fixed-icon' />
+            </a>
+            <a href="https://www.linkedin.com/in/jonathanrodriguez04" aria-label='LinkedIn' target="_blank" rel="noopener noreferrer" className='hover-link'>
+                <BsLinkedin className='fixed-icon' />
+            </a>
+            <a href="https://codepen.io/varJonathanR" aria-label='CodePen' target="_blank" rel="noopener noreferrer" className='hover-link'>
+                <FaCodepen className='fixed-icon' />
+            </a>
         </div>
     </PageFooter>
   )
