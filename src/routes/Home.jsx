@@ -34,7 +34,7 @@ export default function Home() {
         <hr />
         <h3>Me, Myself and I</h3>
         <p className="bio">
-          As a self-motivated individual with a passion for coding, I have been
+          <b>Self taught developer</b>, with a passion for coding, I have been
           pursuing web development on my own time, studying various front-end
           technologies such as HTML, CSS, JavaScript and React. Having excellent
           understanding of these technologies and have developed several projects to showcase my skills.
