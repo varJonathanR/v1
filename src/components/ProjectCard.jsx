@@ -11,8 +11,8 @@ export default function ProjectCard({ title, description, technologies, image, i
         <div className="specialInfo">
             <p>{technologies}</p>
             <td className='tdFlex'>
-                <a href={liveLink} aria-label="Demo" target="_blank" className='hover-link' rel="noopener noreferrer"><BsBoxArrowUpRight className='fixed-icon' /></a>
-                <a href={githubLink} aria-label="Repository" target="_blank" className='hover-link' rel="noopener noreferrer"><BsGithub className='fixed-icon' /></a>
+                <a href={liveLink} title="Demo" target="_blank" className='hover-link' rel="noopener noreferrer"><BsBoxArrowUpRight className='fixed-icon' /></a>
+                <a href={githubLink} title="Code" target="_blank" className='hover-link' rel="noopener noreferrer"><BsGithub className='fixed-icon' /></a>
             </td>
         </div>
     </Card>

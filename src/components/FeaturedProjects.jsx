@@ -1,3 +1,6 @@
+/* 
+WORK IN PROGRESS!
+
 import React from 'react'
 import img0 from '../assets/edie-homepage-preview.png'
 import { BsBoxArrowUpRight, BsGithub } from "react-icons/bs";
@@ -9,7 +12,7 @@ export default function FeaturedProjects({ liveLink, githubLink }) {
         <img src={img0} alt="" />
         <div className='overlay'>
             <h4>Edie Homepage</h4>
-            <p>ASDSHGFHDSGFJAHDGFH</p>
+            <p>WORK IN PROGRESS!</p>
             <td className='tdFlex'>
                 <a href={liveLink} aria-label='Demo' className='hover-link' target="_blank" rel="noopener noreferrer"><BsBoxArrowUpRight className='fixed-icon' /></a>
                 <a href={githubLink} aria-label='Repository' className='hover-link' target="_blank" rel="noopener noreferrer"><BsGithub className='fixed-icon' /></a>
@@ -52,4 +55,4 @@ const MainProject = styled.div`
     p{
         width: 100%;
     }
-`
+` */

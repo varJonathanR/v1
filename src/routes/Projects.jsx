@@ -15,7 +15,9 @@ export default function Projects() {
     >
       <div className='container'>
         <h1>Projects</h1>
-        {/* <h3>Featured Projects</h3>
+        {/* 
+        WORK IN PROGRESS!
+        <h3>Featured Projects</h3>
         <FeaturedProjects />
         <hr /> */}
         <h3 className='centered-text'>Building Block Projects</h3>
