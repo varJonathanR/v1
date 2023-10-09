@@ -5,7 +5,7 @@ import { styled } from "styled-components";
 export default function ProjectCard({ title, description, technologies, image, imageAlt, liveLink, githubLink }) {
   return (
     <Card>
-        <img src={image} alt={imageAlt} />
+        <img src={image} alt={imageAlt} loading="lazy" />
         <h3>{title}</h3>
         <p>{description}</p>
         <div className="specialInfo">
