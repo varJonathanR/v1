@@ -22,7 +22,7 @@ const icons = [
   { Icon: SiJquery, color: '#0769ad', title: "JQuery" },
   { Icon: SiReact, color: '#61DAFB', title: "React" },
   { Icon: SiRedux, color: '#764abc', title: "Redux" },
-  { Icon: SiJest, color: '#C21325', title: "Jest" },
+  /* { Icon: SiJest, color: '#C21325', title: "Jest" }, */
   { Icon: SiBootstrap, color: '#7952B3', title: "Bootstrap" },
   { Icon: SiTailwindcss, color: '#38B2AC', title: "TailwindCSS" },
   { Icon: SiFigma, color: '#0ACF83', title: "Figma" },
