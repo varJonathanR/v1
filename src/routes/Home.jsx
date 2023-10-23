@@ -8,7 +8,7 @@ export default function Home() {
     words: [
       "Front-End Developer",
       "UX Enthusiast",
-      "In my journey to become a full-stack developer"
+      "In my journey to becoming MERN developer"
     ],
     loop: {},
     typeSpeed: 90,
@@ -23,7 +23,7 @@ export default function Home() {
       transition={{ duration: 0.75, ease: "easeOut" }}
     >
       <div className="container">
-        <h1>Jonathan Rodriguez </h1>
+        <h1>Jonathan Rodríguez</h1>
         <h2>
           {typeWriter}
           <Cursor />

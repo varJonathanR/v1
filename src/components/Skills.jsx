@@ -3,12 +3,13 @@ import {
   SiHtml5, 
   SiCss3, 
   SiSass, 
+  SiBootstrap, 
+  SiTailwindcss, 
   SiJquery, 
   SiReact, 
   SiRedux, 
   SiJest,  
-  SiBootstrap, 
-  SiTailwindcss, 
+  SiRedis,
   SiFigma, 
   SiNetlify 
 } from "react-icons/si";
@@ -18,13 +19,14 @@ const icons = [
   { Icon: SiHtml5, color: '#FF5733', title: "HTML5" },
   { Icon: SiCss3, color: '#264DE4', title: "CSS3" },
   { Icon: SiSass, color: '#CC6699', title: "SASS" },
+  { Icon: SiBootstrap, color: '#7952B3', title: "Bootstrap" },
+  { Icon: SiTailwindcss, color: '#38B2AC', title: "TailwindCSS" },
   { Icon: DiJavascript, color: '#F7DF1E', title: "JavaScript" },
   { Icon: SiJquery, color: '#0769ad', title: "JQuery" },
   { Icon: SiReact, color: '#61DAFB', title: "React" },
   { Icon: SiRedux, color: '#764abc', title: "Redux" },
   /* { Icon: SiJest, color: '#C21325', title: "Jest" }, */
-  { Icon: SiBootstrap, color: '#7952B3', title: "Bootstrap" },
-  { Icon: SiTailwindcss, color: '#38B2AC', title: "TailwindCSS" },
+  { Icon: SiRedis, color: '#DD0031', title: "Redis" },
   { Icon: SiFigma, color: '#0ACF83', title: "Figma" },
   { Icon: SiNetlify, color: '#00C7B7', title: "Netlify" }
 ];

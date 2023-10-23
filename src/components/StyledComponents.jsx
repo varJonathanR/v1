@@ -5,7 +5,7 @@ export const Nav = styled.nav`
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 2rem;
-    background-color: rgba(10, 25, 47, 0.9);
+    background-color: rgba(10, 23, 32, 0.9);
     backdrop-filter: blur(5px);
     position: fixed;
     top: 0;

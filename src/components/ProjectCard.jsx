@@ -2,17 +2,17 @@ import React from 'react'
 import { BsBoxArrowUpRight, BsGithub } from "react-icons/bs";
 import { styled } from "styled-components";
 
-export default function ProjectCard({ title, description, technologies, image, imageAlt, liveLink, githubLink }) {
+export default function ProjectCard({ projectTitle, description, stack, imgURL, imgALT, demoURL, repoURL }) {
   return (
     <Card>
-        <img src={image} alt={imageAlt} loading="lazy" />
-        <h3>{title}</h3>
+        <img src={imgURL} alt={imgALT} loading="lazy" />
+        <h3>{projectTitle}</h3>
         <p>{description}</p>
         <div className="specialInfo">
-            <p>{technologies}</p>
+            <p>{stack}</p>
             <td className='tdFlex'>
-                <a href={liveLink} title="Demo" target="_blank" className='hover-link' rel="noopener noreferrer"><BsBoxArrowUpRight className='fixed-icon' /></a>
-                <a href={githubLink} title="Code" target="_blank" className='hover-link' rel="noopener noreferrer"><BsGithub className='fixed-icon' /></a>
+                <a href={demoURL} title="Demo" target="_blank" className='hover-link' rel="noopener noreferrer"><BsBoxArrowUpRight className='fixed-icon' /></a>
+                <a href={repoURL} title="Code" target="_blank" className='hover-link' rel="noopener noreferrer"><BsGithub className='fixed-icon' /></a>
             </td>
         </div>
     </Card>
@@ -24,7 +24,7 @@ const Card = styled.div`
     min-width: 250px;
     padding: 1rem;
     background-color: var(--quaternary-color);
-    border-radius: 5px;
+    border-radius: 10px;
 
     h3{
         font-size: 1.2rem;

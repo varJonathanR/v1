@@ -12,7 +12,7 @@ export default function Archive() {
     >
         <div className='container'>
           <h1 className='archiveTitle'>Archive</h1>
-          <h4>List of things I've built</h4>
+          <h4>List of things I&apos;ve built</h4>
           <ArchiveTable />
         </div>
     </motion.div>
