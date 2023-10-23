@@ -1,18 +1,23 @@
-# varjonathanrv1 - Web Portfolio 👜
-
 <div align="center">
-    Built with [Vite](https://vitejs.dev/)
-
-    [![Netlify Status](https://api.netlify.com/api/v1/badges/6420677d-7535-4211-bfc9-ebc776c3d161/deploy-status)](https://app.netlify.com/sites/varjonathanrv1/deploys)
+    <img src="https://github.com/varJonathanR/v1/blob/main/public/vJRLogo.png" alt="Logo" style="border-radius: 50%;" />
+    
+    <h1>varjonathanrv1 - Web Portfolio 👜</h1>
 </div>
+
+<p align="center">
+    Built with <a href="https://vitejs.dev/" target="_blank">Vite</a>
+    <a href="https://app.netlify.com/sites/varjonathanrv1/deploys" target="_blank">
+        <img src="https://api.netlify.com/api/v1/badges/6420677d-7535-4211-bfc9-ebc776c3d161/deploy-status" alt="Netlify Status" />
+    </a>
+</p>
 
 ## 🔍 Overview
 
-Welcome to my online portfolio! Here, you'll find information about me, my projects, skills, and how to get in touch. I invite you to explore and discover the result of my effort and dedication. Get ready to be amazed! 🤩
+Welcome to my web portfolio! Here, you'll find information about me, my projects, skills, and how to get in touch. I invite you to explore and discover the result of my effort and dedication. Get ready to be amazed! 🤩
 
 > Stay tuned for upcoming updates!
 
-![varjonathanrv1_review]()
+![varjonathanrv1_review](https://github.com/varJonathanR/v1/blob/main/public/varjonathanrv1_preview.png)
 
 ## 🔌 Dependencies
 
