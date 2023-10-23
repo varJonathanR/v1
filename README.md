@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://github.com/varJonathanR/v1/blob/main/public/vJRLogo.png" alt="Logo" width="150px" style="border-radius: 50%;" />
+    <img src="https://github.com/varJonathanR/v1/blob/main/public/vJRLogo.png" alt="Logo" width="120px" style="border-radius: 50%;" />
 </div>
 
 <h1 align="center">varjonathanrv1 - Web Portfolio 👜</h1>
