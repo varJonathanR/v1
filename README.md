@@ -1,8 +1,8 @@
 <div align="center">
-    <img src="https://github.com/varJonathanR/v1/blob/main/public/vJRLogo.png" alt="Logo" style="border-radius: 50%;" />
-    
-    <h1>varjonathanrv1 - Web Portfolio 👜</h1>
+    <img src="https://github.com/varJonathanR/v1/blob/main/public/vJRLogo.png" alt="Logo" width="60px" style="border-radius: 50%;" />
 </div>
+
+<h1 align="center">varjonathanrv1 - Web Portfolio 👜</h1>
 
 <p align="center">
     Built with <a href="https://vitejs.dev/" target="_blank">Vite</a>
