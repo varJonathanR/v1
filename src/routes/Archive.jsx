@@ -11,7 +11,7 @@ export default function Archive() {
         transition={{ duration: 0.75, ease: "easeOut" }}
     >
         <div className='container'>
-          <h1 className='archiveTitle'>Archive</h1>
+          <h1 className='archiveTitle'>TIMELINE</h1>
           <h4>List of things I&apos;ve built</h4>
           <ArchiveTable />
         </div>

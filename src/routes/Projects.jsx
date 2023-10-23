@@ -23,7 +23,7 @@ export default function Projects() {
         <h3 className='centered-text'>Building Block Projects</h3>
         <p className="centered-text">
           <Link to="/archive" className='buttonA'>
-            View Full List of Projects
+            View Timeline
           </Link>
         </p>
         <BBProjects />

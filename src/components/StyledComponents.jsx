@@ -21,7 +21,7 @@ export const Nav = styled.nav`
     }
     
     a{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         padding: .8rem;
         color: var(--tertiary-color);
         transition: color .3s ease-in;
@@ -55,7 +55,7 @@ export const LinkContainer = styled.div`
             flex-direction: column;
             align-items: center;
             transition: .5s;
-            background-color: rgba(10, 25, 47, 0.9);
+            background-color: rgba(10, 23, 32, 0.9);
             backdrop-filter: blur(5px);
 
             a{
