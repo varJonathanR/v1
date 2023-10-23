@@ -1,11 +1,11 @@
 <div align="center">
-    <img src="https://github.com/varJonathanR/v1/blob/main/public/vJRLogo.png" alt="Logo" width="60px" style="border-radius: 50%;" />
+    <img src="https://github.com/varJonathanR/v1/blob/main/public/vJRLogo.png" alt="Logo" width="150px" style="border-radius: 50%;" />
 </div>
 
 <h1 align="center">varjonathanrv1 - Web Portfolio 👜</h1>
 
 <p align="center">
-    Built with <a href="https://vitejs.dev/" target="_blank">Vite</a>
+    Built with <a href="https://vitejs.dev/" target="_blank">Vite</a> </br>
     <a href="https://app.netlify.com/sites/varjonathanrv1/deploys" target="_blank">
         <img src="https://api.netlify.com/api/v1/badges/6420677d-7535-4211-bfc9-ebc776c3d161/deploy-status" alt="Netlify Status" />
     </a>
