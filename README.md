@@ -17,7 +17,7 @@ Welcome to my web portfolio! Here, you'll find information about me, my projects
 
 > Stay tuned for upcoming updates!
 
-![varjonathanrv1_review](https://github.com/varJonathanR/v1/blob/main/public/varjonathanrv1_preview.png)
+![varjonathanrv1_preview](https://github.com/varJonathanR/v1/blob/main/public/varjonathanrv1_preview.png)
 
 ## 🔌 Dependencies
 
